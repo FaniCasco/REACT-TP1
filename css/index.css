@@ -1,0 +1,150 @@
+/*
+font-family: 'Lumanosimo', cursive;
+font-family: 'Rubik', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Architects Daughter', cursive;
+font-family: 'Big Shoulders Inline Text', cursive;
+
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+
+    scroll-behavior: smooth;
+
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #fe9e8e;
+    border: solid 20px #c4037a;
+    border-style:double;
+
+}
+
+
+h5 {
+    margin-top: 15px;
+    color: #322c8e;
+    font-weight: 600;
+}
+.subrayado {
+    text-decoration-line: underline;
+}
+
+section ul li a {
+    font-family: 'Architects Daughter', cursive;
+    color: white;
+    text-decoration: none;
+}
+
+section .m-trabajos {
+    display: flex;
+    justify-content: right;
+    margin-top: -10px;
+}
+
+.fc-h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+    color: #322c8e;
+    margin-top: 2%;
+
+}
+
+.fc-h2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Dancing Script', cursive;
+    color: #322c8e;
+    margin-top: 2%;
+    
+
+}
+
+.fc-btn {
+    display: flex;
+    justify-content: center;
+    color: #fe9e8e;
+    margin-top: 2%;
+    font-family: 'Architects Daughter', cursive;
+
+}
+
+
+
+.perfil {
+
+    width: 250px;
+    height: auto;
+
+}
+
+img {
+    width: 250px;
+    height: auto;
+    border-radius: 25px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.boton-1 {
+
+    text-align: center;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Dancing Script', cursive;
+    color: #fe9e8e;
+    text-decoration: none;
+    background-color: #322c8e;
+    width: 40%;
+    margin-left: auto;
+
+}
+.boton-1 a {
+    text-decoration: none;
+}
+
+p {
+display: flex;
+justify-content: center;
+margin: auto;
+    color: #fef8f7;
+
+}
+
+.card {
+    background: #f80174;
+    border: #322c8e;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-radius: 25px;
+}
+
+footer {
+    background-color: #322c8e;
+    width: auto;
+    margin-top: 30px;
+
+
+}
+
+footer p {
+    text-align: center;
+    color: #e6e6e6;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin: 0;
+}
