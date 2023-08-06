@@ -8,7 +8,7 @@
     width: 50%;
 }
 
- .img-web {
+ .img-fluid {
 
      width: 400px;
      height: 300px;
@@ -57,9 +57,15 @@
 
  }
 
- @media screen and (max-width: 330px){
+ @media screen and (max-width: 400px){
     .tabla {
       
         width: 250px;
+    }
+
+    .img-fluid {
+       max-width: 50%;
+       margin: auto;
+       text-align: center;
     }
  }
