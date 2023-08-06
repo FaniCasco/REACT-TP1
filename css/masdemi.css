@@ -3,12 +3,10 @@
      justify-content: center;
  }
 
- .table-c {
-
-     margin: auto;
-     width: 70%;
-
- }
+.tabla {
+   margin: auto;
+    width: 50%;
+}
 
  .img-web {
 
@@ -57,4 +55,11 @@
      color: deeppink;
      background: black;
 
+ }
+
+ @media screen and (max-width: 330px){
+    .tabla {
+      
+        width: 250px;
+    }
  }
