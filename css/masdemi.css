@@ -10,8 +10,6 @@
 
  .img-fluid {
 
-     width: 400px;
-     height: 300px;
      transition: transform .5s;
  }
 
@@ -63,9 +61,5 @@
         width: 250px;
     }
 
-    .img-fluid {
-       max-width: 50%;
-       margin: auto;
-       text-align: center;
-    }
+
  }
